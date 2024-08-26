@@ -1,7 +1,8 @@
-import "./App.css";
+import Counter from "./Counter";
 
 function App() {
-  return <h1>starting project</h1>;
+  return;
+  <Counter />;
 }
 
 export default App;
