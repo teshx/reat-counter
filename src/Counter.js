@@ -12,12 +12,16 @@ function Counter() {
   };
   return (
     <>
-      <div className="counter">
-        <h1 className="numbeer">{Count}</h1>
+      <div className="container">
+        <h1 className="number">{Count}</h1>
       </div>
       <section className="button-container">
-        <button onClick={increment}>+</button>
-        <button onClick={decrement}>-</button>
+        <button onClick={increment} className="increment">
+          +
+        </button>
+        <button onClick={decrement} className="increment">
+          -
+        </button>
       </section>
     </>
   );
